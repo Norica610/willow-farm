@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Willow Farm Park</title>
+    <!-- 1. Load Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+    
+  <!-- 3. Load Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- 4. Custom Styles for consistency -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <style>
+    body { font-family: 'Open Sans', sans-serif; }
+    
+    h1, h2, h3, h4, h5, .handwritten {
+      font-family: 'Amatic SC', cursive;
+    }
+  
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased">
+  <!-- IMMEDIATE INFO BAR -->
+  <div class="bg-green-700 text-white text-center py-2 font-semibold text-sm">
+    <span><i class="fas fa-clock mr-2"></i> OPENNING TIME: 8:00 AM - 5:00 PM</span>
+    <span class="mx-4">|</span>
+    <span><i class="fas fa-cloud-sun mr-2"></i> WEATHER: SUNNY</span>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <!-- Logo -->
+        <div class="flex-shrink-0 flex items-center">
+          <div class="text-3xl font-bold text-green-800 handwritten tracking-wide">
+          <a href="index.html" i class="fas fa-tractor mr-2"></i> Willow Farm</a>
+          </div>
+        </div>
+        
+        <!-- Desktop Nav -->
+        <div class="hidden md:flex space-x-8">
+          <a href="whatOn.html" class="text-stone-600 hover:text-green-700 font-medium">Farming</a>
+          <a href="FindUs.html" class="text-stone-600 hover:text-green-700 font-medium">Find Us</a>
+          <a href="FarmShop.html" class="text-stone-600 hover:text-green-700 font-medium">Farm shop</a>
+          <a href="ourService.html" class="text-stone-600 hover:text-green-700 font-medium">Our service</a>
+          <a href="toPlay.html" class="text-stone-600 hover:text-green-700 font-medium">To Play</a>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="#" class="bg-amber-400 hover:bg-amber-500 text-stone-900 px-5 py-2 rounded-full font-bold transition shadow-md">
+            Buy Tickets
+          </a>
+        </div>
+        
+     
+  </header>
+<body>
+
+<!--hero section-->
+    <section class="relative w-full h-[30rem] overflow-hidden">
+         <img src="photo/IMG_3705.jpg" alt="background-image" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative z-10 flex items-center justify-center h-full">
+            <h1 class="text-6xl font-bold text-white text-center text-left">Events & Experiences</h1>
+        </div>
+    </section>
+
+<!-- CONTENT SECTION -->
+<section class="relative w-full h-64 md:h-80 mb-12 overflow-hidden">
+
+  <!-- background image -->
+  <img 
+    src="photo/road4.png" 
+    alt="grass-image" 
+    class="absolute inset-0 w-full h-full object-cover"
+  />
+
+  <!-- veil -->
+  <div class="absolute inset-0 bg-black/20"></div>
+
+  <!-- context -->
+  <div class="relative z-10 h-full max-w-7xl mx-auto px-6">
+    <div class="grid h-full md:grid-cols-2 gap-8">
+
+      <!-- left text -->
+      <div class="flex items-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight">
+          Go Rural<br>
+          Events on Scottish Farms
+        </h1>
+      </div>
+
+      <!-- right text -->
+      <div class="flex items-center justify-end text-right">
+        <p class="text-base md:text-lg text-white max-w-md">
+          From unique and personal farm experiences to larger farm-based events
+          including markets, festivals and foodie extravaganzas, it’s easier
+          than ever to escape your comfort zone and go rural.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- EVENTS LIST SECTION -->
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Section Header -->
+        <div class="mb-12 border-b border-stone-200 pb-6 flex justify-between items-end">
+            <div>
+                <h2 class="text-5xl font-bold text-green-800 handwritten">Upcoming Highlights</h2>
+                <p class="text-stone-500 mt-2">Special days and seasonal celebrations at Willow Farm.</p>
+            </div>
+        </div>
+  <!-- Event Item 1 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col md:flex-row gap-6 items-center">
+          <div class="bg-amber-100 text-amber-800 rounded-lg p-4 text-center min-w-[100px]">
+            <div class="text-sm font-bold uppercase">MAR</div>
+            <div class="text-3xl font-bold">15</div>
+          </div>
+          <div class="flex-1">
+            <div class="text-xs font-bold text-green-600 mb-1 uppercase tracking-wide">Seasonal</div>
+            <h3 class="text-2xl font-bold text-stone-800 handwritten">Lambing Live!</h3>
+            <p class="text-stone-600">Join our shepherds in the main barn to see the new arrivals. Bottle feeding sessions available.</p>
+          </div>
+          <a href="#" class="px-6 py-2 border-2 border-green-700 text-green-700 font-bold rounded-full hover:bg-green-700 hover:text-white transition">Book Slot</a>
+        </div>
+
+        <!-- Event Item 2 -->
+        <div class="bg-white p-6 rounded-xl shadow-sm flex flex-col md:flex-row gap-6 items-center">
+          <div class="bg-amber-100 text-amber-800 rounded-lg p-4 text-center min-w-[100px]">
+            <div class="text-sm font-bold uppercase">OCT</div>
+            <div class="text-3xl font-bold">20</div>
+          </div>
+          <div class="flex-1">
+            <div class="text-xs font-bold text-green-600 mb-1 uppercase tracking-wide">Harvest</div>
+            <h3 class="text-2xl font-bold text-stone-800 handwritten">Pumpkin Picking Patch</h3>
+            <p class="text-stone-600">Grab a wheelbarrow and head to the muddy fields to pick your perfect pumpkin.</p>
+          </div>
+          <a href="#" class="px-6 py-2 border-2 border-green-700 text-green-700 font-bold rounded-full hover:bg-green-700 hover:text-white transition">Book Slot</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+<footer class="bg-stone-900 text-stone-300 pt-24 pb-12">
+  
+  <!-- Top Footer -->
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+
+      <!-- Brand -->
+      <div class="md:col-span-1">
+        <div class="text-3xl font-bold text-white handwritten mb-4">
+          <i class="fas fa-tractor mr-2"></i> Willow Creek
+        </div>
+        <p class="text-sm leading-relaxed max-w-xs">
+          A small farm located between Edinburgh and Carlisle.
+        </p>
+      </div>
+
+      <!-- Spacer / Balance column -->
+      <div class="hidden md:block"></div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">
+          Visit Us
+        </h4>
+        <p class="text-sm mb-2">Willow Farm Farm Park</p>
+        <p class="text-sm mb-2">Abbington Farm, Abington, Biggar</p>
+        <p class="text-sm mb-2">ML12 6RH</p>
+        <p class="text-sm">01864 502501</p>
+      </div>
+
+      <!-- Opening Hours -->
+      <div>
+        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">
+          Opening Hours
+        </h4>
+        <ul class="space-y-2 text-sm">
+          <li>Monday to Saturday – 8.00am to 5.00pm</li>
+          <li>Sunday – 9.00am to 4.30pm</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-stone-800">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between text-xs text-stone-500">
+      <p>&copy; 2025 Willow Farm Park. All rights reserved.</p>
+      <div class="flex gap-6 mt-4 md:mt-0">
+        <a href="#" class="hover:text-white">Privacy Policy</a>
+        <a href="#" class="hover:text-white">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+

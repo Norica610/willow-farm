@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Willow Farm Park</title>
+    <!-- 1. Load Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+    
+  <!-- 3. Load Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- 4. Custom Styles for consistency -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <style>
+    body { font-family: 'Open Sans', sans-serif; }
+    
+    h1, h2, h3, h4, h5, .handwritten {
+      font-family: 'Amatic SC', cursive;
+    }
+  
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased">
+
+  <!-- IMMEDIATE INFO BAR -->
+  <div class="bg-green-700 text-white text-center py-2 font-semibold text-sm">
+    <span><i class="fas fa-clock mr-2"></i> OPENNING TIME: 8:00 AM - 5:00 PM</span>
+    <span class="mx-4">|</span>
+    <span><i class="fas fa-cloud-sun mr-2"></i> WEATHER: SUNNY</span>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <!-- Logo -->
+        <div class="flex-shrink-0 flex items-center">
+          <div class="text-3xl font-bold text-green-800 handwritten tracking-wide">
+          <a href="index.html" i class="fas fa-tractor mr-2"></i> Willow Farm</a>
+          </div>
+        </div>
+        
+        <!-- Desktop Nav -->
+        <div class="hidden md:flex space-x-8">
+          <a href="whatOn.html" class="text-stone-600 hover:text-green-700 font-medium">Farming</a>
+          <a href="FindUs.html" class="text-stone-600 hover:text-green-700 font-medium">Find Us</a>
+          <a href="FarmShop.html" class="text-stone-600 hover:text-green-700 font-medium">Farm shop</a>
+          <a href="ourService.html" class="text-stone-600 hover:text-green-700 font-medium">Our service</a>
+          <a href="toPlay.html" class="text-stone-600 hover:text-green-700 font-medium">To Play</a>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="#" class="bg-amber-400 hover:bg-amber-500 text-stone-900 px-5 py-2 rounded-full font-bold transition shadow-md">
+            Buy Tickets
+          </a>
+        </div>
+        
+     
+  </header>
+
+  <!-- HERO SECTION -->
+  <div class="hero-pattern pt-16 pb-24"> 
+    <div class="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-10 md:mb-0 pr-0 md:pr-10">
+        <h1 class="text-5xl md:text-6xl font-bold text-green-900 mb-9 font-inter">
+          Enjoy a , <br/>wonderful day, <br/>of adventure
+        </h1>
+        <p class="text-lg text-stone-600 mb-8">
+          Experience the magic of the countryside. Meet our pig, ride the horse, and enjoy homemade cake in our cafe. A perfect family day out.
+        </p>
+        <div class="flex space-x-4">
+          <a href="toPlay.html" class="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-bold text-lg shadow-lg transition">
+            View Daily Activities
+          </a>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <!-- Image Header -->
+        <div class="rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition duration-500">
+          <img src="photo/feed.jpg" alt="feeding" class="w-full h-96 object-cover">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEWSLETTER / INFO STRIP -->
+  <div class="bg-stone-100 border-y border-stone-200 py-12">
+    <div class="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
+      <div class="flex-1">
+        <h3 class="text-3xl font-bold text-green-800 mb-2 handwritten">Join the 'Farm Club'</h3>
+        <p class="text-stone-600">Get the latest news on lambing season, special events, and exclusive discounts directly to your inbox.</p>
+      </div>
+      <div class="flex-1 w-full max-w-md">
+        <form class="flex gap-2">
+          <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-green-500">
+          <button class="bg-green-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-green-800">Subscribe</button>
+        </form>
+        <p class="text-xs text-stone-400 mt-2">By subscribing you agree to our Privacy Policy.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MEET THE ANIMALS -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <span class="text-amber-500 font-bold tracking-wider text-sm uppercase">The Stars of the Show</span>
+        <h2 class="text-5xl font-bold text-stone-800 mt-2">Meet The Animals</h2>
+      </div>
+
+      <!-- Animal Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-stone-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+          <div class="h-64 overflow-hidden">
+            <img src="photo/horse.jpg" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="horse">
+          </div>
+          <div class="p-6">
+            <h3 class="text-3xl font-bold text-green-800 mb-2">Little Horse</h3>
+            <p class="text-stone-600 mb-4">He is the boss of the here. He loves head scratches and stealing hats if you get too close!</p>
+           
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-stone-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+          <div class="h-64 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1516467508483-a7212febe31a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Pig">
+          </div>
+          <div class="p-6">
+            <h3 class="text-3xl font-bold text-green-800 mb-2">Penny the Pig</h3>
+            <p class="text-stone-600 mb-4">Penny enjoys sunbathing and belly rubs. Catch her at 2pm for the daily pig feeding demonstration.</p>
+          
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-stone-50 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+          <div class="h-64 overflow-hidden">
+            <img src="photo/cow.jpg"  class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="cow">
+          </div>
+          <div class="p-6">
+            <h3 class="text-3xl font-bold text-green-800 mb-2">Alfie the Alpaca</h3>
+            <p class="text-stone-600 mb-4">With the wildest hair on the farm, Alfie is hard to miss. He's very gentle and loves carrot sticks.</p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- FOOTER -->
+<footer class="bg-stone-900 text-stone-300 pt-24 pb-12">
+  
+  <!-- Top Footer -->
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+
+      <!-- Brand -->
+      <div class="md:col-span-1">
+        <div class="text-3xl font-bold text-white handwritten mb-4">
+          <i class="fas fa-tractor mr-2"></i> Willow Farm
+        </div>
+        <p class="text-sm leading-relaxed max-w-xs">
+          A small farm located between Edinburgh and Carlisle.
+        </p>
+      </div>
+
+      <!-- Spacer / Balance column -->
+      <div class="hidden md:block"></div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">
+          Visit Us
+        </h4>
+        <p class="text-sm mb-2">Willow Farm Park</p>
+        <p class="text-sm mb-2">Abbington Farm, Abington, Biggar</p>
+        <p class="text-sm mb-2">ML12 6RH</p>
+        <p class="text-sm">01864 502501</p>
+      </div>
+
+      <!-- Opening Hours -->
+      <div>
+        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">
+          Opening Hours
+        </h4>
+        <ul class="space-y-2 text-sm">
+          <li>Monday to Saturday – 8.00am to 5.00pm</li>
+          <li>Sunday – 9.00am to 4.30pm</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-stone-800">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between text-xs text-stone-500">
+      <p>&copy; 2025 Willow Creek Farm Park. All rights reserved.</p>
+      <div class="flex gap-6 mt-4 md:mt-0">
+        <a href="#" class="hover:text-white">Privacy Policy</a>
+        <a href="#" class="hover:text-white">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+
+</footer>

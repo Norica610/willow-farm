@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Willow Farm Park</title>
+    <!-- 1. Load Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+    
+  <!-- 3. Load Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- 4. Custom Styles for consistency -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <style>
+    body { font-family: 'Open Sans', sans-serif; }
+    
+    h1, h2, h3, h4, h5, .handwritten {
+      font-family: 'Amatic SC', cursive;
+    }
+  
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased">
+  <!-- IMMEDIATE INFO BAR -->
+  <div class="bg-green-700 text-white text-center py-2 font-semibold text-sm">
+    <span><i class="fas fa-clock mr-2"></i> OPENNING TIME: 8:00 AM - 5:00 PM</span>
+    <span class="mx-4">|</span>
+    <span><i class="fas fa-cloud-sun mr-2"></i> WEATHER: SUNNY</span>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <!-- Logo -->
+        <div class="flex-shrink-0 flex items-center">
+          <div class="text-3xl font-bold text-green-800 handwritten tracking-wide">
+          <a href="index.html" i class="fas fa-tractor mr-2"></i> Willow Farm</a>
+          </div>
+        </div>
+        
+        <!-- Desktop Nav -->
+        <div class="hidden md:flex space-x-8">
+          <a href="whatOn.html" class="text-stone-600 hover:text-green-700 font-medium">Farming</a>
+          <a href="FindUs.html" class="text-stone-600 hover:text-green-700 font-medium">Find Us</a>
+          <a href="FarmShop.html" class="text-stone-600 hover:text-green-700 font-medium">Farm shop</a>
+          <a href="ourService.html" class="text-stone-600 hover:text-green-700 font-medium">Our service</a>
+          <a href="toPlay.html" class="text-stone-600 hover:text-green-700 font-medium">To Play</a>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="#" class="bg-amber-400 hover:bg-amber-500 text-stone-900 px-5 py-2 rounded-full font-bold transition shadow-md">
+            Buy Tickets
+          </a>
+        </div>
+        
+     
+  </header>
+<body>
+
+<!--hero section-->
+    <section class="relative w-full h-[30rem] overflow-hidden">
+         <img src="photo/staff.jpg" alt="background-image" class="absolute inset-0 w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative z-10 flex items-center justify-center h-full">
+              <h1 class="text-6xl font-bold text-white text-center text-left">The Farm Café</h1>
+            </div>
+    </section>
+
+
+<!-- Content Section -->
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Intro: Image + Text -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-16">
+            <div class="grid md:grid-cols-2">
+                <div class="h-64 md:h-auto overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800" 
+                         alt="Cafe Interior" 
+                         class="w-full h-full object-cover hover:scale-105 transition duration-700">
+                </div>
+                
+                <!-- Text Content -->
+                <div class="p-8 md:p-12 flex flex-col justify-center">
+                    <h2 class="text-4xl font-bold text-green-800 handwritten mb-6">Our cafe</h2>
+                    <p class="text-lg text-stone-700 leading-relaxed mb-6">
+                       We also have a small café attached to the farm shop so people can enjoy their purchases immediately.
+                       </br>Some of the most popular items in a farm shop are:</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Items Grid -->
+        <div class="mb-16">
+            <h3 class="text-3xl font-bold text-stone-800 handwritten mb-8 text-center md:text-left">
+                <i class="fas fa-heart text-amber-500 mr-2"></i>iconic food
+            </h3>
+        <!-- picture section -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="group relative rounded-xl overflow-hidden shadow-md cursor-pointer">
+                    <img src="photo/bread.jpg" alt="bread" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110 ">
+                </div>
+
+                <div class="group relative rounded-xl overflow-hidden shadow-md cursor-pointer">
+                    <img src="photo/bread2.jpg" alt="pie" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                </div>
+
+                <div class="group relative rounded-xl overflow-hidden shadow-md cursor-pointer">
+                    <img src="photo/cake.jpg" alt="cake" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                </div>
+                
+                <div class="group relative rounded-xl overflow-hidden shadow-md cursor-pointer">
+                    <img src="photo/milk.jpg" alt="milk" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                </div>
+    </section>
+</body>
+
+ <!-- FOOTER -->
+<footer class="bg-stone-900 text-stone-300 pt-24 pb-12">
+  
+  <!-- Top Footer -->
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+
+      <!-- Brand -->
+      <div class="md:col-span-1">
+        <div class="text-3xl font-bold text-white handwritten mb-4">
+          <i class="fas fa-tractor mr-2"></i> Willow Farm
+        </div>
+        <p class="text-sm leading-relaxed max-w-xs">
+          A small farm located between Edinburgh and Carlisle.
+        </p>
+      </div>
+
+      <!-- Spacer / Balance column -->
+      <div class="hidden md:block"></div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">
+          Visit Us
+        </h4>
+        <p class="text-sm mb-2">Willow Farm Park</p>
+        <p class="text-sm mb-2">Abbington Farm, Abington, Biggar</p>
+        <p class="text-sm mb-2">ML12 6RH</p>
+        <p class="text-sm">01864 502501</p>
+      </div>
+
+      <!-- Opening Hours -->
+      <div>
+        <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">
+          Opening Hours
+        </h4>
+        <ul class="space-y-2 text-sm">
+          <li>Monday to Saturday – 8.00am to 5.00pm</li>
+          <li>Sunday – 9.00am to 4.30pm</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-stone-800">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between text-xs text-stone-500">
+      <p>&copy; 2025 Willow Farm Park. All rights reserved.</p>
+      <div class="flex gap-6 mt-4 md:mt-0">
+        <a href="#" class="hover:text-white">Privacy Policy</a>
+        <a href="#" class="hover:text-white">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+             
